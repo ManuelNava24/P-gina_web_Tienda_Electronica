@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aparatos Electrónicos Informáticos</title>
+    <link rel="stylesheet" href="../estilos/styles.css">
+    <link rel="stylesheet" href="../estilos/productos.css">
+    <link rel="shortcut icon" href="../imagenes/informacion.webp" type="image/x-icon">
+</head>
+<body>
+    <nav class="menus">
+        <img src="../imagenes/informacion.webp" alt="Logo" class="logo">
+        <div class="menu-contenedor">
+            <a href="../index.html" class="menu">Inicio</a>
+            <a href="../paginas/productos.html" class="menu">Productos</a>
+            <a href="../paginas/contacto.html" class="menu">Contacto</a>
+        </div>
+    </nav>
+
+    <section class="productos">
+        <h2 class="productos_titulo">Nuestros Productos</h2>
+
+        <!-- Menú de categorías -->
+        <nav class="productos_menu">
+            <button class="productos_categoria" onclick="location.href='#pc'">PC</button>
+            <button class="productos_categoria" onclick="location.href='#monitor'">Monitor</button>
+            <button class="productos_categoria" onclick="location.href='#mouse'">Mouse</button>
+            <button class="productos_categoria" onclick="location.href='#tarjeta_video'">Tarjeta de Video</button>
+            <button class="productos_categoria" onclick="location.href='#teclado'">Teclado</button>
+        </nav>
+
+        <!-- Contenedor de productos -->
+        <div class="productos_lista">
+            <!-- PC -->
+            <div id="pc" class="productos_categoria-contenedor">
+                <div class="productos_item">
+                    <img src="../imagenes/ART1.webp" alt="Xtreme Pc Gaming Geforce Rtx 4060" class="productos_imagen">
+                    <h3 class="productos_nombre">Xtreme Pc Gaming Geforce Rtx 4060</h3>
+                    <p class="productos_precio">$15,999</p>
+                    <!-- Input checkbox oculto -->
+                    <input type="checkbox" id="ver-mas-pc-rtx" class="ver-mas-checkbox">
+                    <!-- Descripción oculta inicialmente -->
+                    <div class="productos_descripcion-contenedor">
+                        <p class="productos_descripcion">Con 16GB de RAM y SSD de 1TB, tendrás un rendimiento fluido y carga rápida.</p>
+                    </div>
+                    <!-- Botones -->
+                    <div class="botones">
+                        <!-- Botón "Ver más" y "Ver menos" -->
+                        <label for="ver-mas-pc-rtx" class="boton_ver_mas">
+                            <span class="texto_ver_mas">Ver más</span>
+                            <span class="texto_ver_menos">Ver menos</span>
+                        </label>
+                        <button class="boton_comprar">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PC -->
+            <div id="pc" class="productos_categoria-contenedor">
+                <div class="productos_item">
+                    <img src="../imagenes/ART2.webp" alt="Xtreme Pc Gaming Pba Tuf" class="productos_imagen">
+                    <h3 class="productos_nombre">Xtreme Pc Gaming Pba Tuf</h3>
+                    <p class="productos_precio">$18,899</p>
+                    <!-- Input checkbox oculto -->
+                    <input type="checkbox" id="ver-mas-pc" class="ver-mas-checkbox">
+                    <!-- Descripción oculta inicialmente -->
+                    <div class="productos_descripcion-contenedor">
+                        <p class="productos_descripcion">Perfecto para juegos, streaming, edición y más.</p>
+                    </div>
+                    <!-- Botones -->
+                    <div class="botones">
+                        <!-- Botón "Ver más" y "Ver menos" -->
+                        <label for="ver-mas-pc" class="boton_ver_mas">
+                            <span class="texto_ver_mas">Ver más</span>
+                            <span class="texto_ver_menos">Ver menos</span>
+                        </label>
+                        <button class="boton_comprar">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MONITOR -->
+            <div id="monitor" class="productos_categoria-contenedor">
+                <div class="productos_item">
+                    <img src="../imagenes/ART3.webp" alt="Acer Predator Gaming X34 Pbmiphzx Monitor QHD" class="productos_imagen">
+                    <h3 class="productos_nombre">Acer Predator Gaming X34 Pbmiphzx QHD</h3>
+                    <p class="productos_precio">$46,750</p>
+                    <!-- Input checkbox oculto -->
+                    <input type="checkbox" id="ver-mas-predator" class="ver-mas-checkbox">
+                    <!-- Descripción oculta inicialmente -->
+                    <div class="productos_descripcion-contenedor">
+                        <p class="productos_descripcion">Monitor curvo de 34" con G-Sync, HDMI y puerto de visualización, en negro.</p>
+                    </div>
+                    <!-- Botones -->
+                    <div class="botones">
+                        <!-- Botón "Ver más" y "Ver menos" -->
+                        <label for="ver-mas-predator" class="boton_ver_mas">
+                            <span class="texto_ver_mas">Ver más</span>
+                            <span class="texto_ver_menos">Ver menos</span>
+                        </label>
+                        <button class="boton_comprar">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MONITOR -->
+            <div id="monitor" class="productos_categoria-contenedor">
+                <div class="productos_item">
+                    <img src="../imagenes/ART4.webp" alt="Monitor HP E27 G5 LED 27" class="productos_imagen">
+                    <h3 class="productos_nombre">Monitor HP E27 G5 LED 27"</h3>
+                    <p class="productos_precio">$5,899</p>
+                    <!-- Input checkbox oculto -->
+                    <input type="checkbox" id="ver-mas-monitor" class="ver-mas-checkbox">
+                    <!-- Descripción oculta inicialmente -->
+                    <div class="productos_descripcion-contenedor">
+                        <p class="productos_descripcion">Colores realistas, visión clara desde cualquier ángulo y altura ajustable.</p>
+                    </div>
+                    <!-- Botones -->
+                    <div class="botones">
+                        <!-- Botón "Ver más" y "Ver menos" -->
+                        <label for="ver-mas-monitor" class="boton_ver_mas">
+                            <span class="texto_ver_mas">Ver más</span>
+                            <span class="texto_ver_menos">Ver menos</span>
+                        </label>
+                        <button class="boton_comprar">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MOUSE -->
+            <div id="mouse" class="productos_categoria-contenedor">
+                <div class="productos_item">
+                    <img src="../imagenes/ART5.webp" alt="ROG Spatha X" class="productos_imagen">
+                    <h3 class="productos_nombre">ROG Spatha X</h3>
+                    <p class="productos_precio">$2,718</p>
+                    <!-- Input checkbox oculto -->
+                    <input type="checkbox" id="ver-mas-spatha" class="ver-mas-checkbox">
+                    <!-- Descripción oculta inicialmente -->
+                    <div class="productos_descripcion-contenedor">
+                        <p class="productos_descripcion">Inalámbrico, 12 botones, 19.000 ppi, RGB, switches intercambiables.</p>
+                    </div>
+                    <!-- Botones -->
+                    <div class="botones">
+                        <!-- Botón "Ver más" y "Ver menos" -->
+                        <label for="ver-mas-spatha" class="boton_ver_mas">
+                            <span class="texto_ver_mas">Ver más</span>
+                            <span class="texto_ver_menos">Ver menos</span>
+                        </label>
+                        <button class="boton_comprar">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MOUSE -->
+            <div id="mouse" class="productos_categoria-contenedor">
+                <div class="productos_item">
+                    <img src="../imagenes/ART6.webp" alt="GX1000 Eagle Eye Mouse" class="productos_imagen">
+                    <h3 class="productos_nombre">GX1000 Eagle Eye Mouse</h3>
+                    <p class="productos_precio">$999</p>
+                    <!-- Input checkbox oculto -->
+                    <input type="checkbox" id="ver-mas-mouse" class="ver-mas-checkbox">
+                    <!-- Descripción oculta inicialmente -->
+                    <div class="productos_descripcion-contenedor">
+                        <p class="productos_descripcion">Diseño ergonómico para mayor comodidad y evitar fatiga durante el juego.</p>
+                    </div>
+                    <!-- Botones -->
+                    <div class="botones">
+                        <!-- Botón "Ver más" y "Ver menos" -->
+                        <label for="ver-mas-mouse" class="boton_ver_mas">
+                            <span class="texto_ver_mas">Ver más</span>
+                            <span class="texto_ver_menos">Ver menos</span>
+                        </label>
+                        <button class="boton_comprar">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TARJETA DE VIDEO 1 -->
+            <div id="tarjeta_video" class="productos_categoria-contenedor">
+                <div class="productos_item">
+                    <img src="../imagenes/ART7.webp" alt="Tarjeta de video AMD Sapphire Pulse Radeon RX 6600" class="productos_imagen">
+                    <h3 class="productos_nombre">Tarjeta de video AMD Sapphire Pulse Radeon RX 6600</h3>
+                    <p class="productos_precio">$4,999</p>
+                    <!-- Input checkbox oculto -->
+                    <input type="checkbox" id="ver-mas-tarjeta1" class="ver-mas-checkbox">
+                    <!-- Descripción oculta inicialmente -->
+                    <div class="productos_descripcion-contenedor">
+                        <p class="productos_descripcion">Bus de memoria: 128-bit, 1792 núcleos, frecuencia boost de 2491 MHz.</p>
+                    </div>
+                    <!-- Botones -->
+                    <div class="botones">
+                        <!-- Botón "Ver más" y "Ver menos" -->
+                        <label for="ver-mas-tarjeta1" class="boton_ver_mas">
+                            <span class="texto_ver_mas">Ver más</span>
+                            <span class="texto_ver_menos">Ver menos</span>
+                        </label>
+                        <button class="boton_comprar">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TARJETA DE VIDEO 2 -->
+            <div id="tarjeta_video" class="productos_categoria-contenedor">
+                <div class="productos_item">
+                    <img src="../imagenes/ART8.webp" alt="Tarjeta De Video Sapphire Pulse Rx7600 8gb Gddr6" class="productos_imagen">
+                    <h3 class="productos_nombre">Tarjeta De Video Sapphire Pulse Rx7600 8gb Gddr6</h3>
+                    <p class="productos_precio">$6,503</p>
+                    <!-- Input checkbox oculto -->
+                    <input type="checkbox" id="ver-mas-tarjeta2" class="ver-mas-checkbox">
+                    <!-- Descripción oculta inicialmente -->
+                    <div class="productos_descripcion-contenedor">
+                        <p class="productos_descripcion">Bus de memoria: 128-bit, frecuencia boost de 2755 MHz y base de 2355 MHz.</p>
+                    </div>
+                    <!-- Botones -->
+                    <div class="botones">
+                        <!-- Botón "Ver más" y "Ver menos" -->
+                        <label for="ver-mas-tarjeta2" class="boton_ver_mas">
+                            <span class="texto_ver_mas">Ver más</span>
+                            <span class="texto_ver_menos">Ver menos</span>
+                        </label>
+                        <button class="boton_comprar">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Teclado -->
+            <div id="teclado" class="productos_categoria-contenedor">
+                <div class="productos_item">
+                    <img src="../imagenes/ARTT9.webp" alt="Free Wolf K3 Teclado Gamer Mecánico" class="productos_imagen">
+                    <h3 class="productos_nombre">Free Wolf K3 Teclado Gamer Mecánico</h3>
+                    <p class="productos_precio">$539</p>
+                    <!-- Input checkbox oculto -->
+                    <input type="checkbox" id="ver-mas-teclado" class="ver-mas-checkbox">
+                    <!-- Descripción oculta inicialmente -->
+                    <div class="productos_descripcion-contenedor">
+                        <p class="productos_descripcion">Ergonómico y apto para diversos usos. Resiste a salpicaduras.</p>
+                    </div>
+                    <!-- Botones -->
+                    <div class="botones">
+                        <!-- Botón "Ver más" y "Ver menos" -->
+                        <label for="ver-mas-teclado" class="boton_ver_mas">
+                            <span class="texto_ver_mas">Ver más</span>
+                            <span class="texto_ver_menos">Ver menos</span>
+                        </label>
+                        <button class="boton_comprar">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
